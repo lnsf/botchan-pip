@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-
 import json
 from datetime import datetime, timedelta
-#from counter.status import check_limitation
 
 user_id_array, mentioner_id_array, tweet_array = [], [], []
 
@@ -26,7 +24,6 @@ def post_favorit(token):
         res = token.post(url, params = params)
         if res.status_code != 200:
             exit(1)
-
 
 def getdate(con):
     today = datetime.today()
