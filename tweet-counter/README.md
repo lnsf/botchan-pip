@@ -2,7 +2,7 @@
 ## install
 ```
 cd ~/
-git clone --depth 1 https://github.com/Fal318/botchan-pip.git
+git clone --depth=1 https://github.com/Fal318/botchan-pip.git
 cd otchan-pip/tweet-counter
 pip3 install . -U
 ```
