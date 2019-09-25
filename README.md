@@ -3,7 +3,7 @@
 ```
 cd ~/
 git clone --depth=1 https://github.com/Fal318/botchan-pip.git
-cd otchan-pip/tweet-counter
+cd otchan-pip/
 pip3 install . -U
 ```
 ## How to use
