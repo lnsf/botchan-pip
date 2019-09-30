@@ -1,5 +1,4 @@
 from argparse import ArgumentParser
-from counter.status import check_limitation
 from counter.check import check
 from counter.config import get_config
 
